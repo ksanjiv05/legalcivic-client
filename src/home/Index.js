@@ -17,6 +17,9 @@ function Index() {
     message: "",
   });
   const [error, setError] = React.useState("");
+  const [open, setOpen] = React.useState(false);
+  
+
   const [queryBtn, setQueryBtn] = React.useState("Query");
   const handleChange = (ev) => {
     const { name, value } = ev.target;
@@ -68,11 +71,11 @@ function Index() {
   return (
     <>
       <div className="back-to-top"></div>
-      <div style={{ width: "100%", height: 50 }}>
-        <div style={{ float: "left", marginLeft: 100, fontFamily: "cursive" }}>
+      <div className="logo-top">
+        <div className="clogo">
           LegalCivic & Co.
         </div>
-        <div style={{ float: "right", marginRight: 100 }}>
+        <div  className="csocal">
           <i class="fas fa-phone-alt"></i> CallUs : +91 8882487336{" "}
           <i class="fas fa-envelope"></i> <i class="fab fa-facebook-square"></i>{" "}
           <i class="fab fa-linkedin"></i>
@@ -96,11 +99,13 @@ function Index() {
               data-target="#navbarContent"
               aria-controls="navbarContent"
               aria-expanded="false"
-              aria-label="Toggle navigation">
+              aria-label="Toggle navigation"
+              onClick={()=>setOpen(!open)}
+              >
               <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div className="navbar-collapse collapse" id="navbarContent">
+            <div className="navbar-collapse collapse" id="navbarContent" style={{display:open?"block":"none"}}>
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
                   <a className="nav-link" href="index.html">
@@ -248,7 +253,7 @@ function Index() {
             </div>
             <div className="col-lg-6 py-3 wow fadeInRight">
               <div className="img-fluid py-3 text-center">
-                <img src={about} alt="" width={450} />
+                <center><img src={about} alt="" width={450} /></center>
               </div>
             </div>
           </div>
@@ -697,28 +702,34 @@ function Index() {
           <div className="row mt-5">
             <div className="col-lg-4 py-3 wow fadeInUp">
               <div className="card-blog">
-                <ins
-                  class="adsbygoogle"
-                  data-ad-client="ca-pub-1234567890123456"
-                  data-ad-slot="1234567890"></ins>
+              <ins class="adsbygoogle"
+                style={{display:"block"}}
+                data-ad-client="ca-pub-4888538539035804"
+                data-ad-slot="2335516543"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
               </div>
             </div>
 
             <div className="col-lg-4 py-3 wow fadeInUp">
               <div className="card-blog">
-                <ins
-                  class="adsbygoogle"
-                  data-ad-client="ca-pub-1234567890123456"
-                  data-ad-slot="1234567890"></ins>
+              <ins class="adsbygoogle"
+                style={{display:"block"}}
+                data-ad-client="ca-pub-4888538539035804"
+                data-ad-slot="7038066937"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
               </div>
             </div>
 
             <div className="col-lg-4 py-3 wow fadeInUp">
               <div className="card-blog">
-                <ins
-                  class="adsbygoogle"
-                  data-ad-client="ca-pub-1234567890123456"
-                  data-ad-slot="1234567890"></ins>
+              <ins class="adsbygoogle"
+                style={{display:"block"}}
+                data-ad-client="ca-pub-4888538539035804"
+                data-ad-slot="6083189867"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
               </div>
             </div>
           </div>
