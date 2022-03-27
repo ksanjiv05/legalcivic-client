@@ -695,15 +695,15 @@ function Index() {
         </div>
       </div>
 
-      <div className="page-section">
+      <div className="page-section" style={{height:"unset !important"}}>
         <div className="container">
           <div className="text-center wow fadeInUp"></div>
 
-          <div className="row mt-5">
+          <div className="row mt-5" style={{height:"unset !important"}}>
             <div className="col-lg-4 py-3 wow fadeInUp">
-              <div className="card-blog">
+              <div className="card-blog" >
               <ins class="adsbygoogle"
-                style={{display:"block"}}
+                style={{display:"block",height:280, marginBottom: 10}}
                 data-ad-client="ca-pub-4888538539035804"
                 data-ad-slot="2335516543"
                 data-ad-format="auto"
