@@ -7,7 +7,7 @@ import React from 'react';
 
 function App() {
   React.useEffect(()=>{
-    (window.adsbygoogle = window.adsbygoogle || []).push({});
+    // (window.adsbygoogle = window.adsbygoogle || []).push({});
   },[])
   return (
     <>

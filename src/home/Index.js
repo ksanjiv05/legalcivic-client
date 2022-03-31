@@ -170,11 +170,10 @@ function Index() {
                 </div>
                 <div className="body">
                   <h5 className="text-secondary">
-                    Income tax consultancy services
+                  Registration Services
                   </h5>
                   <p>
-                    We help you define your SEO objective & develop a realistic
-                    strategy with you
+                  Register your business with ease from the comfort of your location with LegalCivic.
                   </p>
                 </div>
               </div>
@@ -185,10 +184,10 @@ function Index() {
                   <img src="../assets/img/services/service-2.svg" alt="" />
                 </div>
                 <div className="body">
-                  <h5 className="text-secondary">GST Consultancy services </h5>
+                  <h5 className="text-secondary">Compliance Services </h5>
                   <p>
-                    We help you define your SEO objective & develop a realistic
-                    strategy with you
+                  We help you for timely completion of regular and event-based compliances under the different laws.
+
                   </p>
                 </div>
               </div>
@@ -199,10 +198,9 @@ function Index() {
                   <img src="../assets/img/services/service-3.svg" alt="" />
                 </div>
                 <div className="body">
-                  <h5 className="text-secondary">TDS Return Filing Service</h5>
+                  <h5 className="text-secondary">Litigation Services</h5>
                   <p>
-                    We help you define your SEO objective & develop a realistic
-                    strategy with you
+                  Resolve your disputes with our expert team of lawyers and attorneys in efficient and cost-effective manner.
                   </p>
                 </div>
               </div>
@@ -481,7 +479,7 @@ function Index() {
                     <i class="fas fa-city"></i>
                   </span>
                 </div>
-                <h5>RERA Registration and cases</h5>
+                <h5>RERA Registration & cases</h5>
               </div>
             </div>
           </div>
@@ -505,7 +503,7 @@ function Index() {
               </p>
               <p className="mb-0 text-secondary">
                 LegalCivic & Company
-                <br /> T-136/1, 2nd Floor Baljit Nagar, Patel Nagar <br />
+                <br /> T-136/1, 2nd Floor, Baljit Nagar, Patel Nagar <br />
                 New Delhi – 110008
               </p>
             </div>
@@ -685,7 +683,7 @@ function Index() {
                   </p>
                   <p className="mb-0 text-secondary" style={{ fontSize: 20 }}>
                     Mumbai, Kolkata, Bengaluru, Hyderabad, Chandigarh, Patna,
-                    Agra, Vadodara, Ranchi, Shimla, Lucknow, Ahmadabad,
+                    Agra, Vadodara, Ranchi, Shimla, Lucknow, Ahmedabad,
                     Allahabad, Surat, Darbhanga
                   </p>
                 </div>
@@ -703,7 +701,7 @@ function Index() {
             <div className="col-lg-4 py-3 wow fadeInUp">
               <div className="card-blog" >
               <ins class="adsbygoogle"
-                style={{display:"block",height:280, marginBottom: 10}}
+               
                 data-ad-client="ca-pub-4888538539035804"
                 data-ad-slot="2335516543"
                 data-ad-format="auto"
